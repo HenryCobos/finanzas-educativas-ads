@@ -1,0 +1,38 @@
+# GitHub Pages Configuration for Finanzas con Educación
+
+title: "Finanzas con Educación"
+description: "Aplicación móvil de educación financiera - Verificación AdMob"
+url: "https://tu-usuario.github.io"
+baseurl: "/finanzas-educativas-ads"
+
+# Theme
+theme: minima
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# SEO
+lang: es
+author: "Finanzas con Educación"
+
+# Social
+social:
+  - platform: github
+    url: "https://github.com/tu-usuario/finanzas-educativas-ads"
+
+# Google Analytics (opcional)
+# google_analytics: "G-XXXXXXXXXX"
+
+# Exclude files
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# Include files
+include:
+  - app-ads.txt

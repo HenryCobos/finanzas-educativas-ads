@@ -1,0 +1,69 @@
+# app-ads.txt para Finanzas con Educación
+# Este archivo es requerido por Google AdMob para verificar la autenticidad
+# y maximizar los ingresos publicitarios de la aplicación móvil.
+#
+# Instrucciones de implementación:
+# 1. Subir este archivo a la raíz de tu sitio web: https://tudominio.com/app-ads.txt
+# 2. Si no tienes sitio web, crear uno simple o usar GitHub Pages
+# 3. El archivo debe ser accesible públicamente sin autenticación
+#
+# Formato: <exchange>, <publisher_id>, <relationship>, <certification_authority_id>
+# - exchange: La plataforma publicitaria (google.com para AdMob)
+# - publisher_id: Tu Publisher ID de AdMob
+# - relationship: DIRECT (relación directa) o RESELLER
+# - certification_authority_id: ID de autoridad certificadora (opcional)
+
+# Google AdMob - Configuración principal
+google.com, pub-4349408589058649, DIRECT, f08c47fec0942fa0
+
+# Google Ad Manager (si usas)
+google.com, pub-4349408589058649, DIRECT
+
+# Redes publicitarias adicionales recomendadas para maximizar ingresos
+# (Descomenta las que uses en tu cuenta AdMob)
+
+# Facebook Audience Network
+# facebook.com, 1234567890, RESELLER, c3e20eee3f780d68
+
+# Unity Ads
+# unity.com, 1234567, DIRECT, 96cabb5fbdde37a7
+
+# AppLovin
+# applovin.com, 1234567890, DIRECT
+
+# IronSource
+# ironsrc.com, 1234567890, DIRECT, 83e75a7ae333ca9d
+
+# Vungle
+# vungle.com, 1234567890, DIRECT, c107d686becd2d77
+
+# AdColony
+# adcolony.com, 1234567890, DIRECT, 1ad675c9de6b5176
+
+# Tapjoy
+# tapjoy.com, 1234567890, DIRECT, 29e595b1aeb5904d
+
+# Chartboost
+# chartboost.com, 1234567890, DIRECT
+
+# InMobi
+# inmobi.com, 1234567890, DIRECT, 83e75a7ae333ca9d
+
+# Mintegral
+# mintegral.com, 1234567890, DIRECT
+
+# NOTAS IMPORTANTES:
+# 1. Reemplaza los IDs de ejemplo (1234567890) con tus IDs reales si usas esas redes
+# 2. Solo incluye las redes que realmente tienes configuradas en tu cuenta AdMob
+# 3. El archivo debe estar en formato UTF-8 sin BOM
+# 4. Las líneas que empiezan con # son comentarios y se ignoran
+# 5. Actualiza este archivo cuando agregues nuevas redes publicitarias
+
+# Verificación:
+# - URL del archivo: https://tudominio.com/app-ads.txt
+# - Validador oficial: https://adstxt.guru/
+# - Google AdSense: https://www.google.com/adsense/
+
+# Fecha de creación: $(date)
+# Publisher ID: pub-4349408589058649
+# App ID: ca-app-pub-4349408589058649~2980534201
