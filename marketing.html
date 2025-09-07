@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finanzas con Educación - Transforma tu Futuro Financiero</title>
+    <meta name="description" content="La app líder en educación financiera en español. Aprende a manejar tu dinero, invertir inteligentemente y alcanzar la libertad financiera.">
+    <meta name="keywords" content="finanzas, educación financiera, inversiones, ahorro, presupuesto, dinero, libertad financiera">
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #4CAF50, #45a049);
+            color: white;
+            line-height: 1.6;
+        }
+        .hero {
+            text-align: center;
+            padding: 80px 20px;
+            background: linear-gradient(135deg, #4CAF50, #2E7D32);
+        }
+        .hero h1 {
+            font-size: 3.5em;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        .hero-subtitle {
+            font-size: 1.5em;
+            margin-bottom: 40px;
+            opacity: 0.9;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .section {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 40px;
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+            margin: 40px 0;
+        }
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin: 40px 0;
+        }
+        .feature-card {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        .feature-card:hover {
+            transform: translateY(-5px);
+        }
+        .feature-icon {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+        .feature-title {
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-bottom: 15px;
+            color: #FFD700;
+        }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 40px 0;
+        }
+        .stat-card {
+            background: rgba(33, 150, 243, 0.2);
+            padding: 20px;
+            border-radius: 15px;
+            text-align: center;
+        }
+        .stat-number {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #FFD700;
+        }
+        .stat-label {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+        .testimonial {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 25px;
+            border-radius: 15px;
+            margin: 20px 0;
+            border-left: 4px solid #FFD700;
+        }
+        .testimonial-text {
+            font-style: italic;
+            font-size: 1.1em;
+            margin-bottom: 15px;
+        }
+        .testimonial-author {
+            font-weight: bold;
+            color: #FFD700;
+        }
+        .cta-section {
+            background: linear-gradient(135deg, #FF6B35, #F7931E);
+            text-align: center;
+            padding: 60px 40px;
+            border-radius: 20px;
+            margin: 40px 0;
+        }
+        .cta-button {
+            display: inline-block;
+            background: #2196F3;
+            color: white;
+            padding: 20px 40px;
+            text-decoration: none;
+            border-radius: 30px;
+            font-size: 1.3em;
+            font-weight: bold;
+            margin: 20px 10px;
+            transition: all 0.3s ease;
+            box-shadow: 0 6px 20px rgba(33, 150, 243, 0.3);
+        }
+        .cta-button:hover {
+            background: #1976D2;
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(33, 150, 243, 0.4);
+        }
+        .app-preview {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 40px 0;
+        }
+        .preview-card {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 15px;
+            text-align: center;
+        }
+        .preview-icon {
+            font-size: 4em;
+            margin-bottom: 15px;
+        }
+        .social-proof {
+            text-align: center;
+            margin: 40px 0;
+        }
+        .rating {
+            font-size: 2em;
+            color: #FFD700;
+            margin: 20px 0;
+        }
+        .back-link {
+            display: inline-block;
+            background: #2196F3;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 20px;
+            margin: 10px;
+            transition: all 0.3s ease;
+        }
+        .back-link:hover {
+            background: #1976D2;
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <h1>💰📚 Finanzas con Educación</h1>
+        <p class="hero-subtitle">Transforma tu Futuro Financiero con la App #1 en Educación Financiera</p>
+        <p style="font-size: 1.2em; opacity: 0.9;">
+            Aprende, practica y domina las finanzas personales de manera divertida y efectiva
+        </p>
+    </div>
+
+    <div class="container">
+        <div class="section">
+            <h2 style="text-align: center; font-size: 2.5em; color: #FFD700;">🚀 ¿Por Qué Elegir Finanzas con Educación?</h2>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">💡</div>
+                    <div class="feature-title">Tips Personalizados</div>
+                    <p>Recibe consejos financieros diarios adaptados a tu nivel y objetivos. Desde conceptos básicos hasta estrategias avanzadas de inversión.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🎓</div>
+                    <div class="feature-title">Cursos Interactivos</div>
+                    <p>Aprende paso a paso con nuestros cursos estructurados. Desde presupuesto básico hasta inversiones en FIBRAS y criptomonedas.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🏆</div>
+                    <div class="feature-title">Retos Gamificados</div>
+                    <p>Convierte el aprendizaje en un juego. Completa retos financieros, gana puntos y desarrolla hábitos saludables con el dinero.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <div class="feature-title">Seguimiento de Progreso</div>
+                    <p>Monitorea tu crecimiento financiero con métricas claras. Ve cómo mejoras día a día en tu educación financiera.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🌟</div>
+                    <div class="feature-title">Contenido Premium</div>
+                    <p>Accede a más de 30 tips especializados, 8 cursos completos y 28 retos diseñados por expertos en finanzas personales.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🎯</div>
+                    <div class="feature-title">Enfoque Práctico</div>
+                    <p>No solo teoría. Aprende con ejemplos reales, casos de estudio y herramientas que puedes aplicar inmediatamente.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 style="text-align: center; font-size: 2.5em; color: #FFD700;">📱 Vista Previa de la App</h2>
+            
+            <div class="app-preview">
+                <div class="preview-card">
+                    <div class="preview-icon">🏠</div>
+                    <h3>Dashboard Intuitivo</h3>
+                    <p>Accede rápidamente a tips diarios, tu progreso y nuevos retos desde una interfaz limpia y fácil de usar.</p>
+                </div>
+
+                <div class="preview-card">
+                    <div class="preview-icon">📚</div>
+                    <h3>Biblioteca de Conocimiento</h3>
+                    <p>Explora nuestra extensa colección de tips organizados por categorías: ahorro, inversión, deudas y más.</p>
+                </div>
+
+                <div class="preview-card">
+                    <div class="preview-icon">🎮</div>
+                    <h3>Experiencia Gamificada</h3>
+                    <p>Completa retos, gana puntos y desbloquea nuevos niveles mientras aprendes conceptos financieros importantes.</p>
+                </div>
+
+                <div class="preview-card">
+                    <div class="preview-icon">📈</div>
+                    <h3>Progreso Visual</h3>
+                    <p>Visualiza tu crecimiento con gráficos claros que muestran tu avance en diferentes áreas financieras.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 style="text-align: center; font-size: 2.5em; color: #FFD700;">📊 Estadísticas Impresionantes</h2>
+            
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number">30+</div>
+                    <div class="stat-label">Tips Financieros Especializados</div>
+                </div>
+
+                <div class="stat-card">
+                    <div class="stat-number">8</div>
+                    <div class="stat-label">Cursos Completos</div>
+                </div>
+
+                <div class="stat-card">
+                    <div class="stat-number">28</div>
+                    <div class="stat-label">Retos Interactivos</div>
+                </div>
+
+                <div class="stat-card">
+                    <div class="stat-number">100%</div>
+                    <div class="stat-label">Contenido en Español</div>
+                </div>
+
+                <div class="stat-card">
+                    <div class="stat-number">0€</div>
+                    <div class="stat-label">Completamente Gratis</div>
+                </div>
+
+                <div class="stat-card">
+                    <div class="stat-number">24/7</div>
+                    <div class="stat-label">Acceso Ilimitado</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 style="text-align: center; font-size: 2.5em; color: #FFD700;">💬 Lo Que Dicen Nuestros Usuarios</h2>
+            
+            <div class="testimonial">
+                <div class="testimonial-text">
+                    "Finalmente una app que explica las finanzas de manera simple y en español. Los retos me motivaron a crear mi primer presupuesto y ya estoy ahorrando más cada mes."
+                </div>
+                <div class="testimonial-author">- María González, Estudiante</div>
+            </div>
+
+            <div class="testimonial">
+                <div class="testimonial-text">
+                    "Los tips diarios son oro puro. Cada día aprendo algo nuevo que puedo aplicar inmediatamente. La sección de inversiones me ayudó a entender las FIBRAS."
+                </div>
+                <div class="testimonial-author">- Carlos Rodríguez, Profesional</div>
+            </div>
+
+            <div class="testimonial">
+                <div class="testimonial-text">
+                    "Como madre soltera, necesitaba aprender a manejar mejor mi dinero. Esta app me enseñó a crear un fondo de emergencia y a planificar para el futuro de mis hijos."
+                </div>
+                <div class="testimonial-author">- Ana Martínez, Emprendedora</div>
+            </div>
+        </div>
+
+        <div class="social-proof">
+            <h2 style="color: #FFD700;">⭐ Calificación de Usuarios</h2>
+            <div class="rating">⭐⭐⭐⭐⭐</div>
+            <p style="font-size: 1.2em;">Próximamente en App Store</p>
+        </div>
+
+        <div class="cta-section">
+            <h2 style="font-size: 2.5em; margin-bottom: 20px;">🎯 ¿Listo para Transformar tus Finanzas?</h2>
+            <p style="font-size: 1.3em; margin-bottom: 30px;">
+                Únete a miles de personas que ya están mejorando su futuro financiero
+            </p>
+            <a href="#" class="cta-button">📱 Descargar en App Store</a>
+            <a href="./support.html" class="cta-button">🛠️ Soporte Técnico</a>
+        </div>
+
+        <div class="section">
+            <h2 style="text-align: center; font-size: 2.5em; color: #FFD700;">🔒 Privacidad y Seguridad</h2>
+            <div style="text-align: center;">
+                <p style="font-size: 1.2em;">Tu privacidad es nuestra prioridad. Todos tus datos se almacenan de forma segura en tu dispositivo.</p>
+                <a href="./privacy-policy.html" class="back-link">📋 Política de Privacidad</a>
+                <a href="./support.html" class="back-link">🛠️ Soporte Técnico</a>
+            </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 40px;">
+            <a href="./index.html" class="back-link">🏠 Volver al Inicio</a>
+        </div>
+
+        <div style="text-align: center; margin-top: 30px; font-size: 0.9em; opacity: 0.8;">
+            <p>© 2024 Finanzas con Educación. Todos los derechos reservados.</p>
+            <p>Desarrollado con ❤️ para la comunidad hispanohablante</p>
+        </div>
+    </div>
+</body>
+</html>
